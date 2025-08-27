@@ -7,7 +7,7 @@ STORED_TEXTS = "stored_texts"
 SAVED_IMAGES = "saved_images"
 PRODUCT_LOOKUP_TABLE = "product_lookup"
 SUMMARY_TABLE = "summarized_doc"
-
+#test
 
 ANSWER_FIELDS = {
     "query": "🔍 Query",

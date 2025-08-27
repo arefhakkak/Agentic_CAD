@@ -1,0 +1,40 @@
+# config/settings.yaml
+# This file contains centralized paths and settings for the project.
+
+
+# ─── Configuration Paths ────────────────────────────────────────────────
+config_file: config.yaml
+
+# ─── Log Paths ──────────────────────────────────────────────────────────
+log_dir: config/
+log_file: app.log
+log_level: info
+
+# ─── Model Paths ───────────────────────────────────────────────────────
+model_path: project_saab/models/
+
+
+# ─── Databases ────────────────────────────────────
+agentic_db: agentic.db
+output_db: output.db
+temp_db: temp.db
+
+# ─── Data Directories ──────────────────────────────────────────────────
+data_dir: data/
+pdf_dir: pdfs/
+extracted_image_dir: images/
+
+
+# ─── LLM Levels ──────────────────────────────────────────────────
+llms:
+  basic:
+    model: llama3.2:latest
+    temperature: 0.0
+
+  reasoning:
+    model: phi4:latest #gemma3:4b
+    temperature: 0.0
+
+  multimodal:
+    model: llama3.2:latest
+    temperature: 0.0
